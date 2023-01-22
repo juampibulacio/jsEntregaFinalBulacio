@@ -54,8 +54,6 @@ const mostrarLibros = () => {
         agregarAlCarrito(Libro.id);
         Toastify( {
             text: "Producto agregado al carrito",   
-            position: "left", 
-            gravity: "bottom",
             duration: 3000,
             style: {
                 background: "linear-gradient(to right, #ff5f6d, #ffc371)",
