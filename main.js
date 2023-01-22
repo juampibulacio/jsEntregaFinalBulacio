@@ -212,7 +212,7 @@ setInterval( () => {
         .then( response => response.json())
         .then(({blue, ccb, ccl, mep, oficial, solidario}) => {
             divDolar.innerHTML = `
-            <h6 class="text-warning">Las compras en dólares se abonan al valor oficial (1 dólar = ${oficial} pesos argentinos) </h6>
+            <h6 class="text-danger">Las compras en dólares se abonan al valor oficial (1 dólar = ${oficial} pesos argentinos) </h6>
             `
         }
         )
